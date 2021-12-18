@@ -15,6 +15,7 @@
 }
 
 .navbar button{
+    font-weight: 700;
     background-color: #F2F4F2;
     height: 38px;
     width: 141px;
@@ -170,9 +171,28 @@
     line-height: 20px;
 }
 
+.footer{
+    background-color: #F2F4F2;
+    height: 280px;
+}
 
+.footer h5{
+    font-size: 15px;
+    line-height: 20px;
+}
 
+.footer h3{
+    line-height: 25px;
+    font-weight: 500px;
+    font-size: 18px;
+}
 
+.footer p{
+    margin-top: 5px;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 21px;
+}
 
 
 
