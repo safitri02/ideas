@@ -1,10 +1,13 @@
-.navbar{
+.navbar {
     text-align: center;
     max-width: 100%;
 }
 
-.navbar a{
-    font-family: autorone;
+.logo {
+    font-family: 'Autour One', cursive;
+}
+
+.navbar a {
     margin-top: 26px;
     padding: 26px;
     size: 19px;
@@ -14,7 +17,7 @@
     text-decoration: none;
 }
 
-.navbar button{
+.navbar button {
     font-weight: 700;
     background-color: #F2F4F2;
     height: 38px;
@@ -22,53 +25,53 @@
     border: none;
 }
 
-.header .title{
+.header .title {
     font-size: 40px;
     font-weight: 500;
     line-height: 50px;
 }
 
-.header .deskripsi{
+.header .deskripsi {
     font-size: 21px;
     line-height: 25px;
 
 }
 
 /* For dark button */
-.header .dark{
+.header .dark {
     background-color: #141E12;
     color: #ffffff;
 }
 
 /* For light button */
-.header .light{
+.header .light {
     color: #141E12;
     background-color: #F2F4F2;
 }
 
-.header .img{
+.header .img {
     height: 500px;
 }
 
 /* Supported */
-.header .amikom{
-   width: 30px;
-
+.header .amikom {
+    width: 30px;
 }
 
-.content .title{
+section>h2 {
+    line-height: 53px;
+    font-size: 44px;
     font-weight: 700;
-    font-size: 45px;
-    line-height: 50px;
 }
 
-.content .capt{
-    font-size: 18px;
+section>p {
     line-height: 21px;
+    font-size: 18px;
     color: #6B716A;
 }
 
-.card{
+
+.card {
     margin-top: 10px;
     /* margin-left: 30px; */
     padding: 20px;
@@ -77,30 +80,18 @@
     border-radius: 10px;
 }
 
-.icon{
+.icon {
     width: 35px;
 }
 
-.product .tren-produk{
-    font-size: 44px;
-    line-height: 50px;
-    font-weight: 700;
-}
-
-.card-product{
+.card-product {
     border-radius: 5px;
     margin: 20px;
     background-color: #ffffff;
     border: 1px solid #141E12;
 }
 
-.product .desc-trend{
-    font-size: 18px;
-    line-height: 21px;
-    font-weight: 400;
-}
-
-.product .card-header .profesi{
+.product .card-header .profesi {
     font-size: 12px;
     line-height: 13px;
     font-weight: 300;
@@ -108,18 +99,18 @@
     margin-top: 5px;
 }
 
-.product .card-footer{
+.product .card-footer {
     background-color: #141E12;
     height: 50px;
 }
 
-.product .card-footer p{
+.product .card-footer p {
     color: #ffffff;
     line-height: 16px;
     font-size: 14px;
 }
 
-.product .product-button{
+.product .product-button {
     margin-top: 12px;
     color: #141E12;
     font-size: 14px;
@@ -127,30 +118,30 @@
     padding: 3px 15px;
 }
 
-.success h1{
+.success h1 {
     line-height: 53px;
     font-size: 44px;
     font-weight: 700;
 }
 
-.success p{
+.success p {
     line-height: 21px;
     font-size: 18px;
     color: #6B716A;
 }
 
-.card-success{
+.card-success {
     border: 1px solid #E5E5E5;
     padding: 8px;
     border-radius: 5px;
 }
 
-.card-success img{
+.card-success img {
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
 }
 
-.card-journey{
+.card-journey {
     background-color: #6B716A;
     border-radius: 10px;
     padding: 10px;
@@ -158,13 +149,13 @@
 }
 
 
-.card-journey h1{
+.card-journey h1 {
     font-size: 35px;
     line-height: 44px;
     color: #ffffff;
 }
 
-.card-journey button{
+.card-journey button {
     display: block;
     margin: auto;
     background-color: #F2F4F2;
@@ -176,37 +167,29 @@
     line-height: 20px;
 }
 
-.footer{
+.footer {
     background-color: #F2F4F2;
     height: 280px;
 }
 
-.footer h5{
+.footer h5 {
     font-size: 16px;
     line-height: 20px;
 }
 
-.footer h3{
+.footer h3 {
     line-height: 25px;
     font-weight: 500px;
     font-size: 18px;
 }
 
-.footer p{
+.footer p {
     margin-top: 5px;
     font-weight: 300;
     font-size: 14x;
     line-height: 21px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.text-secondary {
+    color: #6B716A;
+}
